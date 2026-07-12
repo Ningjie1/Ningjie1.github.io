@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://larrysimingdeng.github.io/dengsiming.jpg" class="floatpic">
+<img src="/images/dengsiming.jpg" class="floatpic">
 
 Here is **Siming Deng (Larry Deng)**.<br>
 
@@ -271,7 +271,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
 I currently work at the intersection of **AI infrastructure and applied ML**, building agent runtimes and optimizing LLM inference.
 
 Previously, my research centered on **nonparametric statistics** and **measurement-error modeling**, unobservable-variable estimation under multiplicative distortion frameworks, where I developed calibration methods and simulation studies to improve correlation-coefficient estimation in complex industrial settings, resulting in five SCI publications.
-<img src="/images/dsm1.jpg">
+<img src="/images/sunset.jpg">
 
 ---
 

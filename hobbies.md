@@ -12,21 +12,21 @@ title: Beyond Research
 
 <div class="third">
   <div class="image-container">
-    <a href="/images/dsm2.jpg" class="image-popup">
-      <img src="/images/dsm2.jpg" alt="Siming's personal photo">
+    <a href="/images/hobbies/dsm2.jpg" class="image-popup">
+      <img src="/images/hobbies/dsm2.jpg" alt="Siming's personal photo">
     </a>
   </div>
   <div class="image-container">
-    <a href="/images/dsm3.jpg" class="image-popup">
-      <img src="/images/dsm3.jpg" alt="Siming at the Forbidden City in Beijing">
+    <a href="/images/hobbies/dsm3.jpg" class="image-popup">
+      <img src="/images/hobbies/dsm3.jpg" alt="Siming at the Forbidden City in Beijing">
     </a>
     <div class="image-caption">
       <div class="caption-title">Forbidden City, Beijing</div>
     </div>
   </div>
   <div class="image-container">
-    <a href="/images/dsm4.jpg" class="image-popup">
-      <img src="/images/dsm4.jpg" alt="Siming's personal photo">
+    <a href="/images/hobbies/dsm4.jpg" class="image-popup">
+      <img src="/images/hobbies/dsm4.jpg" alt="Siming's personal photo">
     </a>
   </div>
 </div>
@@ -43,19 +43,19 @@ Every meal is an opportunity to create, taste, and share.
 
 <div class="cooking-gallery">
   <div class="cooking-featured">
-    <a href="/images/Dish1.jpg" class="image-popup">
-      <img src="/images/Dish1.jpg" alt="Siming's signature dish">
+    <a href="/images/hobbies/Dish1.jpg" class="image-popup">
+      <img src="/images/hobbies/Dish1.jpg" alt="Siming's signature dish">
     </a>
   </div>
   <div class="cooking-grid">
     <div class="cooking-item">
-      <a href="/images/Dish2.jpg" class="image-popup">
-        <img src="/images/Dish2.jpg" alt="Homemade meal by Siming">
+      <a href="/images/hobbies/Dish2.jpg" class="image-popup">
+        <img src="/images/hobbies/Dish2.jpg" alt="Homemade meal by Siming">
       </a>
     </div>
     <div class="cooking-item">
-      <a href="/images/Dish3.jpg" class="image-popup">
-        <img src="/images/Dish3.jpg" alt="Culinary creation by Siming">
+      <a href="/images/hobbies/Dish3.jpg" class="image-popup">
+        <img src="/images/hobbies/Dish3.jpg" alt="Culinary creation by Siming">
       </a>
     </div>
   </div>
@@ -82,8 +82,8 @@ My musical heroes are legends who pioneered the genre: <span class="artist-name"
 <p class="guitar-tagline">My guitar, my life. My guitar, my wife :)</p>
 
 <div class="guitar-image-container">
-  <a href="/images/guitar.jpg" class="image-popup">
-    <img src="/images/guitar.jpg" alt="Martin OM28 acoustic guitar and Fender American Professional II">
+  <a href="/images/hobbies/guitar.jpg" class="image-popup">
+    <img src="/images/hobbies/guitar.jpg" alt="Martin OM28 acoustic guitar and Fender American Professional II">
   </a>
 </div>
 
