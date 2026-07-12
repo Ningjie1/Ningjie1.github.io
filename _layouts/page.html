@@ -19,14 +19,89 @@
 </script>
 
 <style>
-  /* 通用样式 */
+  /* ============================================
+     LIQUID GLASS MATERIALS (ported from Tahoe)
+     Blur tiers + fills + edge accents, consumed by the header's
+     3-layer glass stack below. Dark values live in main.css under
+     :root[data-theme="dark"].
+     ============================================ */
+  :root {
+    --glass-blur-xs: blur(4px) saturate(180%);                     /* dropdowns, pills, small popovers */
+    --glass-blur-sm: blur(10px) saturate(160%) brightness(1.05);   /* compact controls, drawers */
+    --glass-blur-md: blur(16px) saturate(180%);                    /* cards, mid surfaces */
+    --glass-blur-lg: blur(20px) saturate(180%);                    /* chrome baseline */
+    --glass-blur-xl: blur(40px) saturate(180%);                    /* modals, hero glass */
+
+    --glass-fill-clear:  rgba(255, 255, 255, 0.08);
+    --glass-fill-light:  rgba(255, 255, 255, 0.35);
+    --glass-fill:        rgba(255, 255, 255, 0.55);
+    --glass-fill-strong: rgba(255, 255, 255, 0.72);
+    --glass-fill-solid:  rgba(255, 255, 255, 0.92);
+
+    --glass-border:    rgba(255, 255, 255, 0.6);
+    --glass-highlight: rgba(255, 255, 255, 0.9);
+    --glass-hairline:  rgba(0, 0, 0, 0.06);
+    --glass-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.12),
+      0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  /* 通用样式 — liquid glass sticky header.
+     Tahoe layer stack: refraction (0) / tint (1) / specular rim (2) /
+     content (3). The bar itself stays transparent; the decorative layers
+     paint the glass. */
   .header-sticky-wrapper {
+    --lg-bg-color: var(--glass-fill);
+    --lg-highlight: rgba(255, 255, 255, 0.75);
     position: sticky;
     top: 0;
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.72);
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
+    background: transparent;
+    overflow: hidden;
+    isolation: isolate;
+  }
+
+  .header-sticky-wrapper > .glass-filter,
+  .header-sticky-wrapper > .glass-overlay,
+  .header-sticky-wrapper > .glass-specular {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+  }
+
+  /* Frost + liquid refraction: the backdrop blur is bent by the global
+     SVG displacement filter so whatever scrolls behind the bar reads as
+     liquid glass instead of flat frosting. The bar is a large surface, so
+     it takes the soft #liquidGlassDisplacement (not the stronger popover
+     lens) over the md blur tier — frosted first, liquid at the edges. */
+  .header-sticky-wrapper > .glass-filter {
+    z-index: 0;
+    backdrop-filter: var(--glass-blur-md);
+    -webkit-backdrop-filter: var(--glass-blur-md);
+    filter: url(#liquidGlassDisplacement) saturate(120%) brightness(1.1);
+  }
+
+  /* Tinted translucent fill */
+  .header-sticky-wrapper > .glass-overlay {
+    z-index: 1;
+    background: var(--lg-bg-color);
+    transition: background-color 0.35s ease;
+  }
+
+  /* Inset specular rim — the Apple glass edge highlight */
+  .header-sticky-wrapper > .glass-specular {
+    z-index: 2;
+    box-shadow:
+      inset 1px 1px 0 var(--lg-highlight),
+      inset 0 0 5px var(--lg-highlight);
+  }
+
+  /* Graceful fallback: if backdrop-filter is unsupported, lean on a more
+     opaque fill so content stays legible. */
+  @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    .header-sticky-wrapper > .glass-overlay {
+      background: var(--glass-fill-strong);
+    }
   }
 
   /* Spacer only needed on mobile when header is fixed */
@@ -34,8 +109,11 @@
     height: 0;
   }
 
-  /* UPenn-style header: oversized logo row on top, name + nav row below */
+  /* UPenn-style header: oversized logo row on top, name + nav row below.
+     Rides above the three decorative glass layers. */
   .header-container {
+    position: relative;
+    z-index: 3;
     display: flex;
     flex-direction: column;
     padding: 8px 40px 0;
@@ -443,7 +521,31 @@
     </symbol>
   </svg>
 
+  <!-- Liquid-glass SVG refraction filters (ported from Tahoe GlassFilterDefs).
+       The header's .glass-filter layer references #liquidGlassLens via
+       `filter: url(#liquidGlassLens)` — without these defs the glass falls
+       back to flat frosting with no liquid edge bend. -->
+  <svg aria-hidden="true" focusable="false" style="position: absolute; width: 0; height: 0; pointer-events: none;">
+    <!-- Soft displacement for large surfaces (modals/hero). -->
+    <filter id="liquidGlassDisplacement" x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="30" result="glassBlur" />
+      <feDisplacementMap in="SourceGraphic" in2="glassBlur" scale="30" xChannelSelector="A" yChannelSelector="A" />
+    </filter>
+    <!-- Stronger lens — wet/liquid edge bend that reads at compact sizes
+         (macOS Tahoe Liquid Glass). -->
+    <filter id="liquidGlassLens" x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox">
+      <feComponentTransfer in="SourceAlpha" result="alpha">
+        <feFuncA type="identity" />
+      </feComponentTransfer>
+      <feGaussianBlur in="alpha" stdDeviation="50" result="lensBlur" />
+      <feDisplacementMap in="SourceGraphic" in2="lensBlur" scale="50" xChannelSelector="A" yChannelSelector="A" />
+    </filter>
+  </svg>
+
   <div class="header-sticky-wrapper">
+    <div class="glass-filter" aria-hidden="true"></div>
+    <div class="glass-overlay" aria-hidden="true"></div>
+    <div class="glass-specular" aria-hidden="true"></div>
     <div class="header-container">
 
       <!-- Row 1: oversized Penn logo (far left) · theme toggle (far right) -->
