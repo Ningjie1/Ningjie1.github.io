@@ -1,16 +1,16 @@
-title: Siming Deng
+title: NingjieLi
 # Comment out url when working locally to resolve base urls correctly
-url: https://larrysimingdeng.github.io/
+url: https://Ningjie1.github.io/
 
 # Owner/author information
 owner:
-  name: Siming Deng
+  name: Ningjie1
   avatar: avatar.jpg
-  email: siming_deng_stat@163.com
-  github: LarrySimingDeng
-  linkedin: larry-deng-317b92360
-  scholar: https://scholar.google.com/citations?hl=en&user=aKyLtgsAAAAJ
-  researchgate: https://www.researchgate.net/profile/Siming-Deng-3
+  email: ningjieli@csust.edu.cn
+  github: Ningjie1
+  linkedin: Ningjieli-
+  scholar: https://scholar.google.com/citations?hl=en&user=zTZbYSEAAAAJ
+  researchgate: https://www.researchgate.net/profile/Ningjie-Li/research?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJwcm9maWxlIiwicHJldmlvdXNQYWdlIjpudWxsfX0
 
 # https://search.google.com/search-console/ownership
 google_verify: "SkiyuGpJOKT74vv5GmXLvYXXDkXy4v8VWPtbelYz3Hs"
@@ -25,7 +25,7 @@ links:
     url: /hobbies/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: China/Beijing
+timezone: Asia/Shanghai
 future: true
 highlighter: rouge
 

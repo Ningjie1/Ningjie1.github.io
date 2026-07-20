@@ -10,24 +10,54 @@ title: Beyond Research
 
 ## Personal Photos
 
-<div class="third">
-  <div class="image-container">
-    <a href="/images/hobbies/dsm2.jpg" class="image-popup">
-      <img src="/images/hobbies/dsm2.jpg" alt="Siming's personal photo">
-    </a>
-  </div>
-  <div class="image-container">
-    <a href="/images/hobbies/dsm3.jpg" class="image-popup">
-      <img src="/images/hobbies/dsm3.jpg" alt="Siming at the Forbidden City in Beijing">
+<div class="photo-mosaic">
+  <div class="image-container image-container--landscape">
+    <a href="/images/hobbies/lnj3.jpg" class="image-popup">
+      <img src="/images/hobbies/lnj3.jpg" alt="Ningjie Li playing basketball">
     </a>
     <div class="image-caption">
-      <div class="caption-title">Forbidden City, Beijing</div>
+      <div class="caption-title">Basketball</div>
     </div>
   </div>
   <div class="image-container">
-    <a href="/images/hobbies/dsm4.jpg" class="image-popup">
-      <img src="/images/hobbies/dsm4.jpg" alt="Siming's personal photo">
+    <a href="/images/hobbies/lnj4.jpg" class="image-popup">
+      <img src="/images/hobbies/lnj4.jpg" alt="Ningjie Li shooting">
     </a>
+    <div class="image-caption">
+      <div class="caption-title">Shooting</div>
+    </div>
+  </div>
+  <div class="image-container image-container--portrait">
+    <a href="/images/hobbies/lnj2.jpg" class="image-popup">
+      <img src="/images/hobbies/lnj2.jpg" alt="Ningjie Li taking photos">
+    </a>
+    <div class="image-caption">
+      <div class="caption-title">Taking photos</div>
+    </div>
+  </div>
+  <div class="image-container">
+    <a href="/images/hobbies/lnj5.jpg" class="image-popup">
+      <img src="/images/hobbies/lnj5.jpg" alt="Ningjie Li on-site investigation">
+    </a>
+    <div class="image-caption">
+      <div class="caption-title">On-site investigation</div>
+    </div>
+  </div>
+  <div class="image-container">
+    <a href="/images/hobbies/lnj6.jpg" class="image-popup">
+      <img src="/images/hobbies/lnj6.jpg" alt="Ningjie Li outdoor activities">
+    </a>
+    <div class="image-caption">
+      <div class="caption-title">Outdoor activities</div>
+    </div>
+  </div>
+  <div class="image-container image-container--portrait">
+    <a href="/images/hobbies/lnj7.jpg" class="image-popup">
+      <img src="/images/hobbies/lnj7.jpg" alt="Ningjie Li's cat">
+    </a>
+    <div class="image-caption">
+      <div class="caption-title">My cat</div>
+    </div>
   </div>
 </div>
 
@@ -35,27 +65,40 @@ title: Beyond Research
 
 <div class="hobby-section cooking-section" markdown="1">
 
-## Possibly the World's Best Amateur Chef
+
+
+## Perhaps the best amateur photographer in the world
 
 <div class="cooking-text-card">
-Every meal is an opportunity to create, taste, and share.
+Each record leaves behind more beautiful memories.
 </div>
 
 <div class="cooking-gallery">
   <div class="cooking-featured">
-    <a href="/images/hobbies/Dish1.jpg" class="image-popup">
-      <img src="/images/hobbies/Dish1.jpg" alt="Siming's signature dish">
+    <a href="/images/hobbies/3.jpg" class="image-popup">
+      <img src="/images/hobbies/3.jpg" alt="Siming's signature dish">
     </a>
   </div>
   <div class="cooking-grid">
     <div class="cooking-item">
-      <a href="/images/hobbies/Dish2.jpg" class="image-popup">
-        <img src="/images/hobbies/Dish2.jpg" alt="Homemade meal by Siming">
+      <a href="/images/hobbies/2.jpg" class="image-popup">
+        <img src="/images/hobbies/2.jpg" alt="Homemade meal by Siming">
       </a>
     </div>
     <div class="cooking-item">
-      <a href="/images/hobbies/Dish3.jpg" class="image-popup">
-        <img src="/images/hobbies/Dish3.jpg" alt="Culinary creation by Siming">
+      <a href="/images/hobbies/1.jpg" class="image-popup">
+        <img src="/images/hobbies/1.jpg" alt="Culinary creation by Siming">
+      </a>
+    </div>
+        <div class="cooking-item">
+      <a href="/images/hobbies/4.jpg" class="image-popup">
+        <img src="/images/hobbies/4.jpg" alt="Culinary creation by Siming">
+      </a>
+    </div>
+        </div>
+        <div class="cooking-item">
+      <a href="/images/hobbies/5.jpg" class="image-popup">
+        <img src="/images/hobbies/5.jpg" alt="Culinary creation by Siming">
       </a>
     </div>
   </div>
@@ -65,28 +108,3 @@ Every meal is an opportunity to create, taste, and share.
 
 <div class="hobby-section" markdown="1">
 
-## Passion for the Blues: My Guitar Journey
-
-Beyond academia and AI innovation, you'll find me lost in the soulful rhythms of the blues. For me, the guitar isn't just an instrument — it's a bridge between logic and emotion, a medium to channel life's raw, unfiltered energy. I've spent countless evenings with fingers dancing across the fretboard, honing the perfect bend or riff until my mom practically dragged me out for dinner. To me, blues is more than music; it's a storytelling language where every note carries joy, struggle, and resilience.
-
-My musical heroes are legends who pioneered the genre: <span class="artist-name">B.B. King</span>'s soulful improvisation, <span class="artist-name">Eric Clapton</span>'s blues-rock mastery, and <span class="artist-name">John Mayer</span>'s modern reinvention. Their influence resonates in my playing—whether I'm jamming the blues' foundational 12-bar shuffle or experimenting with ambient textures.
-
-<div class="hobby-quote">
-"Life isn't just about hitting the right notes in code; it's about finding harmony between mind and soul."
-</div>
-
-</div>
-
-<div class="hobby-section guitar-showcase" markdown="1">
-
-<p class="guitar-tagline">My guitar, my life. My guitar, my wife :)</p>
-
-<div class="guitar-image-container">
-  <a href="/images/hobbies/guitar.jpg" class="image-popup">
-    <img src="/images/hobbies/guitar.jpg" alt="Martin OM28 acoustic guitar and Fender American Professional II">
-  </a>
-</div>
-
-</div>
-
-</div><!-- End hobbies-pinterest-container -->

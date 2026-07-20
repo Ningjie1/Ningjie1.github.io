@@ -3266,7 +3266,7 @@ img.mfp-img {
 }
 
 .hobby-section:first-of-type h2::before {
-  content: "📸 ";
+  content: "🧑 ";
   color: #808080;
   margin-right: 0.5em;
   font-size: 0.9em;
@@ -3288,6 +3288,40 @@ img.mfp-img {
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5em;
   margin: 1.2em 0 0 0;
+}
+
+.photo-mosaic {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-auto-rows: 220px;
+  gap: 24px;
+  margin: 1.5em 0 0 0;
+}
+
+.photo-mosaic .image-container {
+  min-height: 0;
+  margin: 0;
+  border-radius: 8px;
+  background: #f7f8fa;
+  box-shadow: 0 8px 20px rgba(20, 24, 32, 0.08);
+  outline: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.photo-mosaic .image-container a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.photo-mosaic .image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.photo-mosaic .image-container:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 26px rgba(20, 24, 32, 0.14);
 }
 
 /* Personal Photos Gallery - Asymmetric Layout */
@@ -3495,7 +3529,7 @@ img.mfp-img {
 }
 
 .cooking-section h2::before {
-  content: "🍳 ";
+  content: "📸 ";
   margin-right: 0.5em;
 }
 
@@ -3652,11 +3686,27 @@ img.mfp-img {
   animation: fadeInUp 0.8s ease-out forwards;
 }
 
+.hobbies-pinterest-container .hobby-section {
+  opacity: 1;
+  animation: none;
+}
+
 /* Responsive: Tablet (481px - 768px) */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .third {
     grid-template-columns: repeat(2, 1fr);
     gap: 2em;
+  }
+
+  .photo-mosaic {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: 210px;
+    gap: 18px;
+  }
+
+  .photo-mosaic .image-container {
+    grid-column: auto !important;
+    grid-row: auto !important;
   }
 
   .hobby-section {
@@ -3785,6 +3835,7 @@ img.mfp-img {
 
   /* All grids become masonry-compatible */
   .third,
+  .photo-mosaic,
   .photo-gallery,
   .cooking-gallery,
   .cooking-grid,
@@ -3855,6 +3906,23 @@ img.mfp-img {
     width: 100%;
     height: auto;
     display: block;
+  }
+
+  .photo-mosaic .image-container a,
+  .photo-mosaic .image-container img {
+    height: 100%;
+  }
+
+  .photo-mosaic {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: 180px;
+    gap: 12px;
+  }
+
+  .photo-mosaic .image-container {
+    margin-bottom: 0;
+    border-radius: 8px;
   }
 
   /* Disable all lightbox on mobile */
@@ -3933,6 +4001,7 @@ img.mfp-img {
   .photo-featured,
   .photo-item {
     animation: none;
+    opacity: 1;
   }
 
   .image-container:hover,
@@ -4267,12 +4336,16 @@ body,
   background: transparent;
 }
 
-/* Swap to the reverse (white) Penn lockup in dark mode */
+/* Swap to the dark-mode logo asset */
 [data-theme="dark"] .logo--light {
   display: none;
 }
 [data-theme="dark"] .logo--dark {
   display: block;
+}
+
+[data-theme="dark"] .logo-wordmark {
+  color: #f3f4f8;
 }
 
 [data-theme="dark"] .header-nav a {

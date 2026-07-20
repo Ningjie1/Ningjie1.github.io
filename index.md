@@ -2,14 +2,180 @@
 layout: page
 ---
 
-# About Me
+# Information of Me
 
 <img src="/images/dengsiming.jpg" class="floatpic">
 
-Here is **Siming Deng (Larry Deng)**.<br>
+Here is **Ningjie Li**.<br> 
+Born: 1997.05<br>Email: ningjieli@csust.edu.cn<br> 
+Ph.D. graduated from the China University of Geosciences, and Supervisor: [Xinli Hu](https://bnorsg.cug.edu.cn/info/1020/1542.htm) (CAS Huiming Tang's team)<br>
+M.E. graduated from the Chongqing Jaotong University, and Supervisor: [Xuefu Zhang](http://yjsgl.cqjtu.edu.cn/gmis/dsfc/dsfcgrxx/8cea94d845d7bae6e4b186fa489ba3a4) (CAS Yuanming Lai's team)<br>
+I am a lecturer in the [School of Hydraulic and Ocean Engineering at the Changsha University of Science & Technology](https://www.csust.edu.cn/slgc/). 
 
-I am a graduate student in the Department of [Electrical and Systems Engineering (ESE)](https://www.ese.upenn.edu/) at the [Penn Engineering](https://www.seas.upenn.edu/) of the **University of Pennsylvania**. Currently, I build **agentic AI tools and infrastructure** for iPhone hardware testing, spanning agent runtimes (multi-agent orchestration and tool use), on-device inference with **Apple MLX**, closed-loop test optimization, and **Vision Transformers** for distribution diagnosis. Broadly, my interests lie at the intersection of **AI infrastructure, applied ML, and hardware systems**. Prior to joining Penn, I gained valuable research experiences as a Research Assistant at Shenzhen University under the supervision of [Dr. Jun Zhang](https://www.researchgate.net/profile/Jun_Zhang93). My work focused on **Nonparametric Statistics**, **Distortion Measurement Error Models**, and **Large Sample Theory**. I developed and analyzed advanced statistical methods, conducted large-scale simulations, and applied these techniques to real-world datasets, resulting in five SCI publications.<br>
+---
 
+## Research Interests
+
+- ML & AI Engineering Geology
+- Mechanism of Cascading Hazard
+- Fluid-Solid Nnumerical Simulation
+- Reliability and Uncertainty Analysis
+- Precision Blasting Engineering
+
+My research currently focuses on machine learning and probabilistic analysis aspects of multi-geohazards: landslide-tsunami-dam/building. **Research interest:** 1.Machine learning-based probabilistic prediction model and risk framework optimization of multi-geohazards; 2.Combining computational fluid dynamics and machine learning of probabilistic risk prediction technology; 3.Probabilistic assessment method of dam/building vulnerability for cascading effects based on rock/structural damage mechanism；4.Intelligent Blasting Technology and Equipment for traffic and water diversion tunnels
+<div style="text-align: center; margin: 20px auto;">
+  <img src="/images/sunset.jpg"
+       alt="Sunset"
+       style="width: 650px; max-width: 100%; height: auto;">
+  <div style="margin-top: 8px;">
+    PhD graduation photo of Ningjie (second from left)
+  </div>
+</div>
+
+<div style="text-align: center; margin: 20px auto;">
+  <img src="/images/1.jpg"
+       alt="Sunset"
+       style="width: 650px; max-width: 100%; height: auto;">
+  <div style="margin-top: 8px;">
+    On-site investigation
+  </div>
+</div>
+
+---
+
+## Publications
+
+<div class="publications-grid">
+
+  <div class="publication-card">
+    <div class="publication-thumb">
+      <img src="/images/papers/paper1.jpg" alt="A novel back analysis framework">
+      <a href="https://doi.org/10.1016/j.enggeo.2024.107801" class="publication-overlay" target="_blank" rel="noopener">
+        <span>View Paper</span>
+      </a>
+    </div>
+    <div class="publication-info">
+      <div class="publication-title">
+        <a href="https://doi.org/10.1016/j.enggeo.2024.107801" target="_blank" rel="noopener">A novel back analysis framework for the probabilistic risk assessment of subaerial landslide-induced tsunami hazard</a>
+      </div>
+      <div class="publication-authors"><strong class="author-highlight">Ningjie Li</strong>, et al.</div>
+      <div class="publication-conference"><span class="pub-venue">Engineering Geology, 2024</span> <a href="https://doi.org/10.1016/j.enggeo.2024.107801" target="_blank">[DOI]</a></div>
+      <div class="publication-details">DOI: 10.1016/j.enggeo.2024.107801</div>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <div class="publication-thumb">
+      <img src="/images/papers/paper2.jpg" alt="Adaptive portfolio optimization-based metamodel method">
+      <a href="https://doi.org/10.1016/j.ress.2025.112168" class="publication-overlay" target="_blank" rel="noopener">
+        <span>View Paper</span>
+      </a>
+    </div>
+    <div class="publication-info">
+      <div class="publication-title">
+        <a href="https://doi.org/10.1016/j.ress.2025.112168" target="_blank" rel="noopener">Adaptive portfolio optimization-based metamodel method for the multi-armed bandit problem of learning function in slope reliability analysis</a>
+      </div>
+      <div class="publication-authors"><strong class="author-highlight">Ningjie Li</strong>, et al.</div>
+      <div class="publication-conference"><span class="pub-venue">Reliability Engineering &amp; System Safety, 2025</span> <a href="https://doi.org/10.1016/j.ress.2025.112168" target="_blank">[DOI]</a></div>
+      <div class="publication-details">DOI: 10.1016/j.ress.2025.112168</div>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <div class="publication-thumb">
+      <img src="/images/papers/paper3.jpg" alt="A physics-based probabilistic method for assessment of landslide">
+      <a href="https://doi.org/10.1016/j.jrmge.2025.06.018" class="publication-overlay" target="_blank" rel="noopener">
+        <span>View Paper</span>
+      </a>
+    </div>
+    <div class="publication-info">
+      <div class="publication-title">
+        <a href="https://doi.org/10.1016/j.jrmge.2025.06.018" target="_blank" rel="noopener">A physics-based probabilistic method for assessment of landslide</a>
+      </div>
+      <div class="publication-authors"><strong class="author-highlight">Ningjie Li</strong>, et al.</div>
+      <div class="publication-conference"><span class="pub-venue">Journal of Rock Mechanics and Geotechnical Engineering, 2025</span> <a href="https://doi.org/10.1016/j.jrmge.2025.06.018" target="_blank">[DOI]</a></div>
+      <div class="publication-details">DOI: 10.1016/j.jrmge.2025.06.018</div>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <div class="publication-thumb">
+      <img src="/images/papers/paper4.jpg" alt="A quantitative assessment framework">
+      <a href="https://doi.org/10.1016/j.engstruct.2026.122583" class="publication-overlay" target="_blank" rel="noopener">
+        <span>View Paper</span>
+      </a>
+    </div>
+    <div class="publication-info">
+      <div class="publication-title">
+        <a href="https://doi.org/10.1016/j.engstruct.2026.122583" target="_blank" rel="noopener">A quantitative assessment framework for the physical vulnerability of building to subaerial landslide-induced impulse wave</a>
+      </div>
+      <div class="publication-authors"><strong class="author-highlight">Ningjie Li</strong>, et al.</div>
+      <div class="publication-conference"><span class="pub-venue">Engineering Structures, 2026</span> <a href="https://doi.org/10.1016/j.engstruct.2026.122583" target="_blank">[DOI]</a></div>
+      <div class="publication-details">DOI: 10.1016/j.engstruct.2026.122583</div>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <div class="publication-thumb">
+      <img src="/images/papers/paper5.jpg" alt="Assessment of potential impulse waves">
+      <a href="https://doi.org/10.1007/s10064-025-04557-9" class="publication-overlay" target="_blank" rel="noopener">
+        <span>View Paper</span>
+      </a>
+    </div>
+    <div class="publication-info">
+      <div class="publication-title">
+        <a href="https://doi.org/10.1007/s10064-025-04557-9" target="_blank" rel="noopener">Assessment of potential impulse waves from a giant landslide during impoundment in the Lianghekou reservoir (China)</a>
+      </div>
+      <div class="publication-authors"><strong class="author-highlight">Ningjie Li</strong>, et al.</div>
+      <div class="publication-conference"><span class="pub-venue">Bulletin of Engineering Geology and the Environment, 2025</span> <a href="https://doi.org/10.1007/s10064-025-04557-9" target="_blank">[DOI]</a></div>
+      <div class="publication-details">DOI: 10.1007/s10064-025-04557-9</div>
+    </div>
+  </div>
+
+  <div class="publication-card">
+    <div class="publication-thumb">
+      <img src="/images/papers/paper6.jpg" alt="A Bayesian method to optimize empirical wave height model">
+      <a href="https://doi.org/10.1007/s10064-025-04586-4" class="publication-overlay" target="_blank" rel="noopener">
+        <span>View Paper</span>
+      </a>
+    </div>
+    <div class="publication-info">
+      <div class="publication-title">
+        <a href="https://doi.org/10.1007/s10064-025-04586-4" target="_blank" rel="noopener">A Bayesian method to optimize empirical wave height model in subaerial landslide-generated wave hazard probabilistic assessment</a>
+      </div>
+      <div class="publication-authors"><strong class="author-highlight">Ningjie Li</strong>, et al.</div>
+      <div class="publication-conference"><span class="pub-venue">Bulletin of Engineering Geology and the Environment, 2025</span> <a href="https://doi.org/10.1007/s10064-025-04586-4" target="_blank">[DOI]</a></div>
+      <div class="publication-details">DOI: 10.1007/s10064-025-04586-4</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function() {
+  if ('IntersectionObserver' in window) {
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+    document.querySelectorAll('.publication-card').forEach(function(card) {
+      observer.observe(card);
+    });
+  } else {
+    document.querySelectorAll('.publication-card').forEach(function(card) {
+      card.classList.add('animate-in');
+    });
+  }
+})();
+</script>
+
+
+
+---
 ## Work Experience
 
 <div class="timeline">
@@ -17,75 +183,14 @@ I am a graduate student in the Department of [Electrical and Systems Engineering
 
   <div class="timeline-item timeline-item--current">
     <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/apple.svg" alt="Apple">
+      <img src="/images/logo/changshaligonglogo.jpg" alt="Changsha University of Science & Technology">
     </div>
     <div class="timeline-card">
       <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">Apple Inc.</span></div>
-        <span class="timeline-time">Jan. 2026 - Present</span>
+        <div class="timeline-role">lecturer <span class="timeline-sep">|</span> <span class="timeline-company">Changsha University of Science & Technology</span></div>
+        <span class="timeline-time">July. 2026 - Present</span>
       </div>
       <div class="timeline-details">
-        Developed AI agent tools for iPhone hardware testing, enhancing automated diagnostics workflows and improving large-scale test efficiency.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/upenn.svg" alt="UPenn">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Research Assistant <span class="timeline-sep">|</span> <span class="timeline-company">University of Pennsylvania</span></div>
-        <span class="timeline-time">Nov. 2025 - Jan. 2026</span>
-      </div>
-      <div class="timeline-details">
-        ViT-driven image geolocation.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/sf.svg" alt="SF Express">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">SF Express</span></div>
-        <span class="timeline-time">May. 2025 - Jul. 2025</span>
-      </div>
-      <div class="timeline-details">
-        Delivered microservice modules for the order management system.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/boc.svg" alt="Bank of China">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Software Engineer <span class="timeline-sep">|</span> <span class="timeline-company">Bank of China</span></div>
-        <span class="timeline-time">Jul. 2024 - Sep. 2024</span>
-      </div>
-      <div class="timeline-details">
-        Involved in the deployment and fine-tuning of large language models in internal banking systems.
-      </div>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-dot" style="background: #ffffff;">
-      <img src="/images/logo/szu.svg" alt="Shenzhen University">
-    </div>
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <div class="timeline-role">Research Assistant <span class="timeline-sep">|</span> <span class="timeline-company"><a href="https://bdsc.szu.edu.cn/">Big Data Institute, Shenzhen University</a></span></div>
-        <span class="timeline-time">2023 - 2024</span>
-      </div>
-      <div class="timeline-details">
-        Supervised by Distinguished Professor <a href="https://dblp.org/pid/h/JoshuaZhexueHuang.html">Joshua Zhexue Huang</a>. Carried out optimizations on data processing and clustering algorithms by leveraging distributed approximate computing techniques.
       </div>
     </div>
   </div>
@@ -139,142 +244,12 @@ I am a graduate student in the Department of [Electrical and Systems Engineering
 })();
 </script>
 
-If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at - siming_deng_stat [at] 163.com
 
-**<font color="#990000">Seeking Software Engineer and Machine Learning roles — AI Infrastructure, Applied AI / Agents, and ML Systems. Feel free to reach out!</font>**
 
----
-
-## Publications
-
-<div class="publications-grid">
-
-  <div class="publication-card">
-    <div class="publication-thumb">
-      <img src="/images/papers/paper1.svg" alt="Innovative covariance-based framework">
-      <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
-      </a>
-    </div>
-    <div class="publication-info">
-      <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000" target="_blank" rel="noopener">Innovative covariance-based framework: symmetry assessment and exponentiality testing under multiplicative distortion measurement Errors</a>
-      </div>
-      <div class="publication-authors"><strong class="author-highlight">Siming Deng</strong>, Jun Zhang, Jiongtao Zhong</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Simulation and Computation, 2026</span> <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, first author</div>
-    </div>
-  </div>
-
-  <div class="publication-card">
-    <div class="publication-thumb">
-      <img src="/images/papers/paper2.svg" alt="A New Logarithmic Multiplicative Distortion">
-      <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
-      </a>
-    </div>
-    <div class="publication-info">
-      <div class="publication-title">
-        <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708" target="_blank" rel="noopener">A New Logarithmic Multiplicative Distortion for Correlation Analysis</a>
-      </div>
-      <div class="publication-authors"><strong class="author-highlight">Siming Deng</strong>, Jun Zhang</div>
-      <div class="publication-conference"><span class="pub-venue">Statistical Analysis and Data Mining, 2024</span> <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, JCR: Q1, first author, Top Cited Article - WILEY 2025</div>
-    </div>
-  </div>
-
-  <div class="publication-card">
-    <div class="publication-thumb">
-      <img src="/images/papers/paper3.svg" alt="A Revisit to Pearson Correlation Coefficient">
-      <a href="https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
-      </a>
-    </div>
-    <div class="publication-info">
-      <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352" target="_blank" rel="noopener">A Revisit to Pearson Correlation Coefficient under Multiplicative Distortions</a>
-      </div>
-      <div class="publication-authors"><strong class="author-highlight">Siming Deng</strong>, Jun Zhang, Yingcong Huang, Jiongtao Zhong & Xiaozhen Yang</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Simulation and Computation, 2024</span> <a href="https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, first author, Highly Cited Paper - Web of Science</div>
-    </div>
-  </div>
-
-  <div class="publication-card">
-    <div class="publication-thumb">
-      <img src="/images/papers/paper4.svg" alt="Covariance Ratio under Multiplicative Distortion">
-      <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2295240" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
-      </a>
-    </div>
-    <div class="publication-info">
-      <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2295240" target="_blank" rel="noopener">Covariance Ratio under Multiplicative Distortion Measurement Errors</a>
-      </div>
-      <div class="publication-authors">Jiongtao Zhong, <strong class="author-highlight">Siming Deng</strong>, Jun Zhang & Zhenghui Feng</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Theory and Methods, 2023</span> <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2295240" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, 2nd-author</div>
-    </div>
-  </div>
-
-  <div class="publication-card">
-    <div class="publication-thumb">
-      <img src="/images/papers/paper5.svg" alt="Estimation of Correlation Coefficient">
-      <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794" class="publication-overlay" target="_blank" rel="noopener">
-        <span>View Paper</span>
-      </a>
-    </div>
-    <div class="publication-info">
-      <div class="publication-title">
-        <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794" target="_blank" rel="noopener">Estimation of Correlation Coefficient with Monotone Transformation and Multiplicative Distortions</a>
-      </div>
-      <div class="publication-authors">Jun Zhang, Xuan Yu, <strong class="author-highlight">Siming Deng</strong>, Jiongtao Zhong, Yisheng Zhou & Bingqing Lin</div>
-      <div class="publication-conference"><span class="pub-venue">Communications in Statistics - Theory and Methods, 2023</span> <a href="https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794" target="_blank">[paper]</a></div>
-      <div class="publication-details">SCI, 3rd-author</div>
-    </div>
-  </div>
-
-</div>
-
-<script>
-(function() {
-  if ('IntersectionObserver' in window) {
-    var observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('animate-in');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
-    document.querySelectorAll('.publication-card').forEach(function(card) {
-      observer.observe(card);
-    });
-  } else {
-    document.querySelectorAll('.publication-card').forEach(function(card) {
-      card.classList.add('animate-in');
-    });
-  }
-})();
-</script>
+**<font color="#990000">!!!     If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me at ningjieli@csust.edu.cn</font>**
+  
 
 ---
-
-## Research Interests
-
-- ML Systems & AI Infrastructure
-- Efficient & On-Device Inference (Apple MLX, SGLang)
-- Agentic AI (multi-agent orchestration & tool use)
-- Machine Learning
-- Nonparametric Statistics
-
-I currently work at the intersection of **AI infrastructure and applied ML**, building agent runtimes and optimizing LLM inference.
-
-Previously, my research centered on **nonparametric statistics** and **measurement-error modeling**, unobservable-variable estimation under multiplicative distortion frameworks, where I developed calibration methods and simulation studies to improve correlation-coefficient estimation in complex industrial settings, resulting in five SCI publications.
-<img src="/images/sunset.jpg">
-
----
-
 ## News and Updates
 
 <div class="news-grid">
@@ -283,31 +258,15 @@ Previously, my research centered on **nonparametric statistics** and **measureme
       <span class="news-date">February 2026</span>
       <span class="news-tag news-tag--publication">Publication</span>
     </div>
-    <p>First-Author Paper: <a href="https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000"><strong>Innovative covariance-based framework: symmetry assessment and exponentiality testing under multiplicative distortion measurement Errors</strong></a> Now Officially Published in <a href="https://www.tandfonline.com/journals/lssp20">Communications in Statistics - Simulation and Computation</a></p>
-  </div>
-
-  <div class="news-card news-card--milestone">
-    <div class="news-meta">
-      <span class="news-date">Jan 2026</span>
-      <span class="news-tag news-tag--milestone">Milestone</span>
-    </div>
-    <p>Excited to have received an offer from Apple!</p>
-  </div>
-
-  <div class="news-card news-card--milestone">
-    <div class="news-meta">
-      <span class="news-date">March 2025</span>
-      <span class="news-tag news-tag--milestone">Milestone</span>
-    </div>
-    <p>Thrilled to have received an offer from UPenn Engineering!</p>
+    <p>New Paper: <a href="https://doi.org/10.1016/j.engstruct.2026.122583"><strong>A quantitative assessment framework for the physical vulnerability of building to subaerial landslide-induced impulse wave</strong></a> published in Engineering Structures.</p>
   </div>
 
   <div class="news-card news-card--publication">
     <div class="news-meta">
-      <span class="news-date">August 2024</span>
+      <span class="news-date">2025</span>
       <span class="news-tag news-tag--publication">Publication</span>
     </div>
-    <p>First-Author Paper: <a href="https://onlinelibrary.wiley.com/doi/10.1002/sam.11708"><strong>A New Logarithmic Multiplicative Distortion for Correlation Analysis</strong></a> Now Officially Published in <a href="https://onlinelibrary.wiley.com/journal/19321872">Statistical Analysis and Data Mining</a> (JCR Q1)</p>
+    <p>New Paper: <a href="https://doi.org/10.1007/s10064-025-04586-4"><strong>A Bayesian method to optimize empirical wave height model in subaerial landslide-generated wave hazard probabilistic assessment</strong></a> published in Bulletin of Engineering Geology and the Environment.</p>
   </div>
 </div>
 

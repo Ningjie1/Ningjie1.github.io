@@ -6,15 +6,16 @@ title: Publications
 
 ## Publications
 
-- [Innovative covariance-based framework: symmetry assessment and exponentiality testing under multiplicative distortion measurement Errors](https://www.tandfonline.com/doi/abs/10.1080/03610918.2026.2635000)<br>**Siming Deng**, Jun Zhang, Jiongtao Zhong<br>_Communications in Statistics - Simulation and Computation, 2026._ (SCI, first author)<br>
+- [A novel back analysis framework for the probabilistic risk assessment of subaerial landslide-induced tsunami hazard](https://doi.org/10.1016/j.enggeo.2024.107801)<br>**Ningjie Li**, et al.<br>_Engineering Geology, 2024._ DOI: [10.1016/j.enggeo.2024.107801](https://doi.org/10.1016/j.enggeo.2024.107801)<br>
 
-- [A New Logarithmic Multiplicative Distortion for Correlation Analysis](https://onlinelibrary.wiley.com/doi/10.1002/sam.11708)<br>**Siming Deng**, Jun Zhang<br>_Statistical Analysis and Data Mining: The ASA Data Science Journal, 2024._ (SCI, JCR: Q1, first author, Top Cited Article - WILEY 2025)<br>
+- [Adaptive portfolio optimization-based metamodel method for the multi-armed bandit problem of learning function in slope reliability analysis](https://doi.org/10.1016/j.ress.2025.112168)<br>**Ningjie Li**, et al.<br>_Reliability Engineering & System Safety, 2025._ DOI: [10.1016/j.ress.2025.112168](https://doi.org/10.1016/j.ress.2025.112168)<br>
 
-- [A Revisit to Pearson Correlation Coefficient under Multiplicative Distortions](https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2333352)<br>**Siming Deng**, Jun Zhang, Yingcong Huang, Jiongtao Zhong & Xiaozhen Yang<br>_Communications in Statistics - Simulation and Computation, 2024._ (SCI, first author, Highly Cited Paper - Web of Science)<br>
+- [A physics-based probabilistic method for assessment of landslide](https://doi.org/10.1016/j.jrmge.2025.06.018)<br>**Ningjie Li**, et al.<br>_Journal of Rock Mechanics and Geotechnical Engineering, 2025._ DOI: [10.1016/j.jrmge.2025.06.018](https://doi.org/10.1016/j.jrmge.2025.06.018)<br>
 
-- [Covariance Ratio under Multiplicative Distortion Measurement Errors](https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2295240)<br>Jiongtao Zhong, **Siming Deng**, Jun Zhang & Zhenghui Feng<br>_Communications in Statistics - Theory and Methods, 2023._ (SCI, 2nd-author)<br>
+- [A quantitative assessment framework for the physical vulnerability of building to subaerial landslide-induced impulse wave](https://doi.org/10.1016/j.engstruct.2026.122583)<br>**Ningjie Li**, et al.<br>_Engineering Structures, 2026._ DOI: [10.1016/j.engstruct.2026.122583](https://doi.org/10.1016/j.engstruct.2026.122583)<br>
 
-- [Estimation of Correlation Coefficient with Monotone Transformation and Multiplicative Distortions](https://www.tandfonline.com/doi/full/10.1080/03610926.2023.2288794)<br> Jun Zhang, Xuan Yu, **Siming Deng**, Jiongtao Zhong, Yisheng Zhou & Bingqing
-  Lin<br>_Communications in Statistics - Theory and Methods, 2023._ (SCI, 3rd-author)<br>
+- [Assessment of potential impulse waves from a giant landslide during impoundment in the Lianghekou reservoir (China)](https://doi.org/10.1007/s10064-025-04557-9)<br>**Ningjie Li**, et al.<br>_Bulletin of Engineering Geology and the Environment, 2025._ DOI: [10.1007/s10064-025-04557-9](https://doi.org/10.1007/s10064-025-04557-9)<br>
+
+- [A Bayesian method to optimize empirical wave height model in subaerial landslide-generated wave hazard probabilistic assessment](https://doi.org/10.1007/s10064-025-04586-4)<br>**Ningjie Li**, et al.<br>_Bulletin of Engineering Geology and the Environment, 2025._ DOI: [10.1007/s10064-025-04586-4](https://doi.org/10.1007/s10064-025-04586-4)<br>
 
 ---
